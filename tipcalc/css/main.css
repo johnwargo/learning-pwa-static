@@ -6,17 +6,66 @@
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
-
+ @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+  
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 2vw;
   line-height: 1.4;
 }
-
+body {
+  margin: 10vw 20vw;
+  font-family: Roboto, Helvetica, Arial, Verdana, sans-serif;
+}
+h1 {
+  text-align: center;
+  color: rgb(54, 83, 179);
+  margin: 0 0 5vw;
+}
+div.costArea {
+  text-align: center;
+  padding-bottom: 7vw;
+  
+}
+th {
+  background-color: rgb(54, 83, 179);
+  color: white;
+  padding: 1.6vw 2vw;
+}
+td {
+  padding: 1.6vw 0;
+  border-bottom: 1pt solid #ddd;
+}
+th.rating,
+td.rating {
+  text-align: left;
+  padding-left: 2vw;
+}
+th.tip,
+td.tip {
+  text-align: center;
+}
+th.amount,
+td.amount {
+  text-align: right;
+  padding-right: 2vw;
+}
+label {
+  padding-right: 2vw;
+}
+div#pageLogo {
+  height: 50vw;
+  width: 50vw;
+  background: url(../img/tip-200.png) no-repeat;
+  background-size: contain;
+  position:relative;
+  left: 50%;
+  margin-left: -25vw;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -204,7 +253,25 @@ textarea {
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
-
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 4.5vw;
+  }
+}
+@media screen and (min-width: 501px) {
+  div#pageLogo {
+    height: 25vw;
+    width: 25vw;
+    background: url(../img/tip-1200.png) no-repeat;
+    background-size: contain;
+    position:relative;
+    left: 50%;
+    margin-left: -12.5vw;
+  }
+  body {
+    margin: 5vw 10vw;
+  }
+}
 @media print {
   *,
   *:before,
