@@ -16,7 +16,7 @@
 title: Learning Progressive Web Apps
 email: john@johnwargo.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Turducken jowl short loin shank porchetta, doner jerky landjaeger capicola shoulder sirloin andouille swine chicken ball tip. 
+  The online home for Addison Wesley's Learning Progressive Apps (PWA) by John M. Wargo
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://pwalearn.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: johnwargo
