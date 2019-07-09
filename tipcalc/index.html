@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
-  <!-- TODO: Delete this before you go live -->
+  <!-- TODO: Delete this from the code repo before you go live -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-81477657-6"></script>
   <script>
@@ -37,6 +37,22 @@
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'UA-81477657-6');
+  </script>
+
+  <script>
+    // Does the browser support service workers?
+    if ('serviceWorker' in navigator) {
+      // then register our service worker
+      navigator.serviceWorker.register('js/sw.js')
+        .then(function (reg) {
+          console.log(`Service Worker Registration (Scope: ${reg.scope}`);
+        })
+        .catch(function (error) {
+          console.log(`Service Worker Error (${error})`);
+        });
+    } else {
+      console.warn('Service Worker not available');
+    }
   </script>
 </head>
 
