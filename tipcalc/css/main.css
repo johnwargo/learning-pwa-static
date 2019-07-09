@@ -6,8 +6,8 @@
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
- @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
-  
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap");
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -32,10 +32,8 @@ h1 {
 div.costArea {
   text-align: center;
   padding-bottom: 7vw;
-  
 }
 th {
-
   background-color: rgb(54, 83, 179);
   color: white;
   padding: 1.6vw 2vw;
@@ -46,16 +44,19 @@ td {
   border-bottom: 1pt solid #ddd;
 }
 
-th.rating, td.rating {
+th.rating,
+td.rating {
   text-align: left;
   padding-left: 2vw;
 }
 
-th.tip, td.tip {
+th.tip,
+td.tip {
   text-align: center;
 }
 
-th.amount, td.amount {
+th.amount,
+td.amount {
   text-align: right;
   padding-right: 2vw;
 }
@@ -69,7 +70,7 @@ div#pageLogo {
   width: 50vw;
   background: url(../img/tip-200.gif) no-repeat;
   background-size: contain;
-  position:relative;
+  position: relative;
   left: 50%;
   margin-left: -25vw;
 }
@@ -273,7 +274,7 @@ textarea {
     width: 25vw;
     background: url(../img/tip-1200.png) no-repeat;
     background-size: contain;
-    position:relative;
+    position: relative;
     left: 50%;
     margin-left: -12.5vw;
   }
@@ -320,7 +321,8 @@ textarea {
     white-space: pre-wrap !important;
   }
 
-  pre, blockquote {
+  pre,
+  blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
@@ -339,12 +341,15 @@ textarea {
     page-break-inside: avoid;
   }
 
-  p, h2, h3 {
+  p,
+  h2,
+  h3 {
     orphans: 3;
     widows: 3;
   }
 
-  h2, h3 {
+  h2,
+  h3 {
     page-break-after: avoid;
   }
 }
