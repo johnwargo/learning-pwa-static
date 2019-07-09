@@ -43,7 +43,7 @@
     // Does the browser support service workers?
     if ('serviceWorker' in navigator) {
       // then register our service worker
-      navigator.serviceWorker.register('js/sw.js')
+      navigator.serviceWorker.register('sw.js')
         .then(function (reg) {
           console.log(`Service Worker Registration (Scope: ${reg.scope})`);
         })
