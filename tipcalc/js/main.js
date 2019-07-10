@@ -22,7 +22,15 @@ function updateTipAmounts() {
 // event
 let deferredPrompt;
 // Now add an event listener to respond to the event. Right before the browser
-// installs the PWA, it fires the beforeinstallprompt event. 
+// installs the PWA, it fires the beforeinstallprompt event. Here, we'll manage
+// the installation ourselves
 window.addEventListener('beforeinstallprompt', (event)=>{
-
+    // don't allow the browser to do its install, we want to do it when the user
+    // taps the install button
+    event.preventDefault();
+    // stash the event object so we can use it later (when the user taps the 
+    // install button)
+    deferredPrompt = event;
+    // Now unhide the Install button
+    document.getElementById('installButton').style.display = 'block';
 })
