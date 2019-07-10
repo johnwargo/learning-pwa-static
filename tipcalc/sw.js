@@ -37,7 +37,7 @@ self.addEventListener('fetch', event => {
     // covering different cache strategies, so I'm not going to say 
     // any more about this here
     console.log('Event: fetch');
-    console.table(e);
+    console.table(event);
     // console.dir(e);
     // Go get the requested resource from the network, nothing fancy
     // going on here.
