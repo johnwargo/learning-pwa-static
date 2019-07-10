@@ -16,9 +16,9 @@ self.addEventListener('install', e => {
     // of the object passed to the event. the purpose of this event
     // is to give the service worker a place to setup the local 
     // environment after the installation completes.
-    console.log('Event: install');    
-    // console.dir(e);
-    console.table(e);
+    console.log('Event: install');
+    console.dir(e);
+    // console.table(e);
 });
 
 self.addEventListener('activate', event => {
@@ -26,8 +26,8 @@ self.addEventListener('activate', event => {
     // It's a place for the service worker to clean up from previous 
     // service worker versions
     console.log('Event: activate');
-    // console.dir(event);
-    console.table(event);
+    console.dir(event);
+    // console.table(event);
 });
 
 self.addEventListener('fetch', event => {
@@ -38,8 +38,8 @@ self.addEventListener('fetch', event => {
     // covering different cache strategies, so I'm not going to say 
     // any more about this here
     console.log('Event: fetch');
-    console.table(event);
-    // console.dir(e);
+    console.dir(event);
+    // console.table(event);
     // Go get the requested resource from the network, nothing fancy
     // going on here.
     return fetch(event.request);
