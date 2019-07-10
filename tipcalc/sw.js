@@ -4,11 +4,16 @@
  below, but you can also find more information in the following chapters 
  (where I cover Service Workers) or here: 
  https://developers.google.com/web/ilt/pwa/introduction-to-service-worker
-***************************************************************************/
 
-// Since this is a service worker for an app I'm using to just
-// illustrate how to install it, I'm not going to do any app
-// file caching (although most PWAs would).
+ Since this is a service worker for an app I'm using to just illustrate 
+ how to how to use an web manifest file to install it, it doesn't actually
+ do anything. All it does is register event listeners for the Service 
+ Worker events then, in those event listeners, it dumps the event object
+ to the console. That's really it.
+
+ In the chapters that follow, I'll show how to do file caching, deal with 
+ service worker upgrades, and other cool stuff. 
+***************************************************************************/
 
 self.addEventListener('install', event => {
     // fires when the browser installs the app
@@ -37,7 +42,7 @@ self.addEventListener('fetch', event => {
     // any more about this here
     console.log('Event: fetch');
     console.dir(event);
-    // Go get the requested resource from the network, nothing fancy
-    // going on here.
+    // Next, go get the requested resource from the network, 
+    // nothing fancy going on here.
     return fetch(event.request);
 });
