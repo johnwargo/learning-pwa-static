@@ -16,8 +16,9 @@ self.addEventListener('install', e => {
     // of the object passed to the event. the purpose of this event
     // is to give the service worker a place to setup the local 
     // environment after the installation completes.
-    console.log('Event: install');
-    console.dir(e)
+    console.log('Event: install');    
+    // console.dir(e);
+    console.table(e);
 });
 
 self.addEventListener('activate', event => {
