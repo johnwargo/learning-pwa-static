@@ -25,7 +25,8 @@ self.addEventListener('activate', event => {
     // It's a place for the service worker to clean up from previous 
     // service worker versions
     console.log('Event: activate');
-    console.dir(event)
+    // console.dir(event);
+    console.table(event);
 });
 
 self.addEventListener('fetch', event => {
@@ -36,7 +37,8 @@ self.addEventListener('fetch', event => {
     // covering different cache strategies, so I'm not going to say 
     // any more about this here
     console.log('Event: fetch');
-    console.dir(e);
+    console.table(e);
+    // console.dir(e);
     // Go get the requested resource from the network, nothing fancy
     // going on here.
     return fetch(event.request);
