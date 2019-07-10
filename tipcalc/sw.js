@@ -40,8 +40,8 @@ self.addEventListener('fetch', event => {
     // to the server to get it. There's a whole chapter in the book
     // covering different cache strategies, so I'm not going to say 
     // any more about this here
-    console.log('Event: fetch');
-    console.dir(event);
+    console.log(`Fetching ${event.request}`);
+    // console.dir(event);
     // Next, go get the requested resource from the network, 
     // nothing fancy going on here.
     return fetch(event.request);
