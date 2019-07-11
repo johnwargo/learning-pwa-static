@@ -18,13 +18,20 @@ function updateTipAmounts() {
     document.getElementById('tip22').innerHTML = formatter.format(mealCost * 0.22);
 }
 
-console.log('Start');
+function doInstall() {
+    console.log('doInstall');
+}
 
+
+console.log('Start');
 // Register the event listener for the input field
-document.getElementById('mealCost').oninput=updateTipAmounts;
+document.getElementById('mealCost').oninput = updateTipAmounts;
+
 // Get a handle to the install button
 let installButton = document.getElementById('installButton');
-// installButton.
+// Now set the click handler for the install button
+installButton.onclick = doInstall;
+
 // Create an object we'll use to hold the a reference to the PWA install
 // event
 let deferredPrompt;
@@ -32,7 +39,7 @@ let deferredPrompt;
 // Now add an event listener to respond to the event. Right before the browser
 // installs the PWA, it fires the beforeinstallprompt event. Here, we'll manage
 // the installation ourselves
-window.addEventListener('beforeinstallprompt', (event)=>{
+window.addEventListener('beforeinstallprompt', (event) => {
     console.log('Event: beforeinstallprompt')
     // don't allow the browser to do its install, we want to do it when the user
     // taps the install button
@@ -41,6 +48,6 @@ window.addEventListener('beforeinstallprompt', (event)=>{
     // install button)
     deferredPrompt = event;
     // Now unhide the Install button
-   installButton.style.display = 'block';
+    installButton.style.display = 'block';
 });
 console.log('End');
