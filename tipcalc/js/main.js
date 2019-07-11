@@ -18,6 +18,7 @@ function updateTipAmounts() {
     document.getElementById('tip22').innerHTML = formatter.format(mealCost * 0.22);
 }
 
+console.log('Start');
 // Create an object we'll use to hold the a reference to the PWA install
 // event
 let deferredPrompt;
@@ -34,4 +35,5 @@ window.addEventListener('beforeinstallprompt', (event)=>{
     deferredPrompt = event;
     // Now unhide the Install button
     document.getElementById('installButton').style.display = 'block';
-})
+});
+console.log('End');
