@@ -20,11 +20,10 @@ function updateTipAmounts() {
 
 function doInstall() {
     console.log('doInstall');
-    
+
 }
 
-
-console.log('Start');
+console.log('Main: Start');
 // Register the event listener for the input field
 document.getElementById('mealCost').oninput = updateTipAmounts;
 
@@ -51,4 +50,4 @@ window.addEventListener('beforeinstallprompt', (event) => {
     // Now unhide the Install button
     installButton.style.display = 'block';
 });
-console.log('End');
+console.log('Main: End');
