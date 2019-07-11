@@ -20,6 +20,7 @@ function updateTipAmounts() {
 
 function doInstall() {
     console.log('doInstall');
+    
 }
 
 
