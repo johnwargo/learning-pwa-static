@@ -20,7 +20,21 @@ function updateTipAmounts() {
 
 function doInstall() {
     console.log('doInstall');
-
+    // We've tapped the install button, so hide it
+    installButton.style.display = 'none';
+    // execute the deferred installation prompt
+    deferredPrompt.prompt();
+    // Wait for the response from the deferred prompt
+    deferredPrompt.userChoice.then((res) => {
+        // did the user approve installation?
+        if (res.outcome === 'accepted') {
+            console.log('doInstall: accepted');
+        } else {
+            console.log('doInstall: declined');
+        }
+        // Clear the deferred prompt object
+        deferredPrompt = null;
+    });
 }
 
 console.log('Main: Start');

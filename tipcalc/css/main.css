@@ -33,6 +33,7 @@ div.costArea {
   text-align: center;
   padding-bottom: 7vw;
 }
+
 th {
   background-color: rgb(54, 83, 179);
   color: white;
@@ -95,10 +96,10 @@ button#installButton:hover {
   background-color: #f87a03;
 }
 
-button#installButton:active {
+/* button#installButton:active {
   background-color: #f87a03;
   color: #444;
-}
+} */
 
 /*
  * Remove text-shadow in selection highlight:
