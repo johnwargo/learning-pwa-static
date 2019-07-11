@@ -74,11 +74,13 @@ div#pageLogo {
   left: 50%;
   margin-left: -25vw;
 }
+
 #installButtonDiv {
   position: absolute;
   top: 1vh;
   right: 2vw;
 }
+
 button#installButton {
   background-color: rgb(54, 83, 179);
   color: white;
@@ -88,13 +90,16 @@ button#installButton {
   border-radius: 5px;
   display:none;
 }
+
 button#installButton:hover {
   background-color: #f87a03;
 }
+
 button#installButton:active {
   background-color: #f87a03;
   color: #444;
 }
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301

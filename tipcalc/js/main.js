@@ -25,6 +25,7 @@ let deferredPrompt;
 // installs the PWA, it fires the beforeinstallprompt event. Here, we'll manage
 // the installation ourselves
 window.addEventListener('beforeinstallprompt', (event)=>{
+    console.log('Event: beforeinstallprompt')
     // don't allow the browser to do its install, we want to do it when the user
     // taps the install button
     event.preventDefault();
