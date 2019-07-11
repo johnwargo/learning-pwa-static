@@ -19,9 +19,16 @@ function updateTipAmounts() {
 }
 
 console.log('Start');
+
+// Register the event listener for the input field
+document.getElementById('mealCost').oninput=updateTipAmounts;
+// Get a handle to the install button
+let installButton = document.getElementById('installButton');
+// installButton.
 // Create an object we'll use to hold the a reference to the PWA install
 // event
 let deferredPrompt;
+
 // Now add an event listener to respond to the event. Right before the browser
 // installs the PWA, it fires the beforeinstallprompt event. Here, we'll manage
 // the installation ourselves
@@ -34,6 +41,6 @@ window.addEventListener('beforeinstallprompt', (event)=>{
     // install button)
     deferredPrompt = event;
     // Now unhide the Install button
-    document.getElementById('installButton').style.display = 'block';
+   installButton.style.display = 'block';
 });
 console.log('End');
