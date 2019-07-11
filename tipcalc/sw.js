@@ -29,7 +29,7 @@ self.addEventListener('activate', event => {
     // fires after the service worker completes its installation. 
     // It's a place for the service worker to clean up from previous 
     // service worker versions
-    console.log(`Event fired: ${e.type}`);
+    console.log(`Event fired: ${event.type}`);
     console.dir(event);
 });
 
