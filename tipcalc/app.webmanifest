@@ -1,7 +1,7 @@
 {
   "short_name": "TipCalc",
   "name": "Tip Calculator",
-  "icons": [    
+  "icons": [
     {
       "src": "icons/android-icon-192x192.png",
       "sizes": "192x192",
@@ -13,8 +13,8 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/",  
-  "xxx_url": "https://pwalearn/com/tipcalc/?utm_source=homescreen",  
+  "start_url": "/?utm_source=homescreen",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#fafafa",
   "theme_color": "#fafafa"
