@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/tipcalc//index.html?utm_source=homescreen",
+  "start_url": "/tipcalc/index.html?utm_source=homescreen",
   "scope": "/tipcalc/",
   "display": "standalone",
   "background_color": "#fafafa",
