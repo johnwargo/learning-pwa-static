@@ -15,6 +15,6 @@
   ],
   "start_url": "/tipcalc/index.html?utm_source=homescreen",
   "scope": "/tipcalc/",
-  "display": "fullscreen",
+  "display": "standalone",
   "background_color": "#FFFFFF"
 }
