@@ -57,12 +57,12 @@ window.addEventListener('beforeinstallprompt', (event) => {
     console.log('Event: beforeinstallprompt')
     // don't allow the browser to do its install, we want to do it when the user
     // taps our install button
-    event.preventDefault();
+    // event.preventDefault();
     // stash the event object so we can use it later (when the user taps the 
     // install button)
     deferredPrompt = event;
     // Now unhide the Install button so the user can tap it!
-    installButton.style.display = 'block';
+    // installButton.style.display = 'block';
 });
 
 // Register an event listener for after the app installs
