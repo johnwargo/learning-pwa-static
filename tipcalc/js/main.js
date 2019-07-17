@@ -43,6 +43,16 @@
     // Register the event listener for the input field
     document.getElementById('mealCost').oninput = updateTipAmounts;
 
+    // did we launch as a PWA?
+    var urlParams = new URLSearchParams(window.location.search);
+    // look for the source parameter, if it's `pwa` then it's installed
+    if (urlParams.get('source') === 'pwa') {
+        console.log('Launched as PWA');
+        // Add the PWA moniker to the title
+        let theTitle = document.getElementById('title');        
+        theTitle.innerHTML = theTitle.innerHTML + ' (PWA)';
+    }
+
     // Get a handle to the install button
     let installButton = document.getElementById('installButton');
     // Now set the click handler for the install button
