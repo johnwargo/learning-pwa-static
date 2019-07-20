@@ -44,5 +44,5 @@ self.addEventListener('fetch', event => {
     // console.dir(event.request);
     // Next, go get the requested resource from the network, 
     // nothing fancy going on here.
-    return fetch(event.request);
+    event.respondWith(fetch(event.request));
 });
