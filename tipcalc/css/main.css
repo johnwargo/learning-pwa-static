@@ -95,6 +95,9 @@ button#installButton {
 button#installButton:hover {
   background-color: #f87a03;
 }
+input {
+  border: 1pt solid #ccc;
+}
 
 /* button#installButton:active {
   background-color: #f87a03;
@@ -318,6 +321,30 @@ textarea {
   button#installButton {
     padding: 1.6vw 2vw;
     font-size: 2vw;
+  }
+}
+@media screen and (orientation: landscape)  and (min-width: 820px) {
+  /* handles when screen is turned landscape ipad OR desktop */
+  body {
+    font-size: 2vh;
+  } 
+  th {
+    padding: 1.6vh 2vh;
+  }
+  h1 {
+    margin: 0 0 5vh;
+  }
+  div#pageLogo {
+    height: 25vh;
+    width: 25vh;
+    margin-left: -12.5vh;
+  }
+  div.costArea {
+    padding-bottom: 7vh;
+  }
+  button#installButton {
+    padding: 1.6vh 2vh;
+    font-size: 2vh;
   }
 }
 
