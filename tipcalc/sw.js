@@ -1,19 +1,10 @@
-/***************************************************************************
- Hey, I thought we agreed that we weren't going to dig into Service Workers 
- in this chapter, what gives?  OK, I'll explain the contents of this file 
- below, but you can also find more information in the following chapters 
- (where I cover Service Workers) or here: 
- https://developers.google.com/web/ilt/pwa/introduction-to-service-worker
+//@ts-check
 
- Since this is a service worker for an app I'm using to just illustrate 
- how to how to use an web manifest file to install it, it doesn't actually
- do anything. All it does is register event listeners for the Service 
- Worker events then, in those event listeners, it dumps the event object
- to the console. That's really it.
-
- In the chapters that follow, I'll show how to do file caching, deal with 
- service worker upgrades, and other cool stuff. 
-***************************************************************************/
+const SW_VERSION = 1;
+// the root name for our cache
+const CACHE_ROOT = 'tip-calc-cache'
+// generates a custom cache name per service worker version
+const CACHE_NAME = `${CACHE_ROOT}-v${SW_VERSION}`;
 
 self.addEventListener('install', event => {
     // fires when the browser installs the app
@@ -23,26 +14,79 @@ self.addEventListener('install', event => {
     // environment after the installation completes.
     console.log(`Event fired: ${event.type}`);
     console.dir(event);
+    // Force service worker activation
+    self.skipWaiting();
 });
 
-self.addEventListener('activate', event => {
+self.addEventListener('activate', (event) => {
     // fires after the service worker completes its installation. 
     // It's a place for the service worker to clean up from previous 
     // service worker versions
-    console.log(`Event fired: ${event.type}`);
-    console.dir(event);
+    console.log(`SW: ${event.type} event fired`);
+    // apply this service worker to all tabs running the app
+    self.clients.claim();
+    // Clean up our previous caches
+    event.waitUntil(
+        // Get the list of cache keys (cache names)
+        caches.keys().then(cacheList => {
+            // don't stop until all complete
+            return Promise.all(
+                cacheList.map(theCache => {
+                    // is the cache key different than the 
+                    // current cache name and has the same root?
+                    if ((CACHE_NAME !== theCache) && (theCache.startsWith(CACHE_ROOT))) {
+                        // Yes? Then delete it. 
+                        console.log(`SW: deleting cache ${theCache}`);
+                        return caches.delete(theCache);
+                    }
+                })
+            );
+        })
+    );
 });
 
-self.addEventListener('fetch', event => {
+self.addEventListener('fetch', (event) => {
+    console.log(`SW: ${event.type} ${event.request.url}`);
     // Fires whenever the app requests a resource (file or data)
-    // normally this is where the service worker would check to see
-    // if the requested resource is in the local cache before going
-    // to the server to get it. There's a whole chapter in the book
-    // covering different cache strategies, so I'm not going to say 
-    // any more about this here
-    console.log(`Fetching ${event.request.url}`);
-    // console.dir(event.request);
-    // Next, go get the requested resource from the network, 
-    // nothing fancy going on here.
-    event.respondWith(fetch(event.request));
+    event.respondWith(
+        // try to get the file from the network
+        fetch(event.request)
+            // whew, we got it
+            .then((response) => {
+                // Do we have a valid response?
+                if (response && response.status == 200
+                    && response.type == 'basic') {
+                    // clone the response; it's a stream, so we can't
+                    // write it to the cache and return it as well
+                    let responseClone = response.clone();
+                    // Try to open the cache
+                    caches.open(CACHE_NAME)
+                        // If we successfully opened the cache
+                        .then(cache => {
+                            console.log(`SW: Adding ${event.request.url} to the cache`);
+                            // then write our cloned response to the cache
+                            cache.put(event.request, responseClone);
+                        });
+                    // return the original response
+                    return response;
+                } else {
+                    // return whatever error response we got from the server
+                    return response;
+                }
+            })  //then
+            .catch(() => {
+                // rats, network resources not available
+                // do we have it in the cache?
+                console.log(`SW: Trying Cache ${event.request.url}`);
+                return caches.match(event.request)
+                    .then(response => {
+                        // if it is, then return the cached response
+                        // object from the cache
+                        if (response) {
+                            console.log(`SW: Return Cache ${event.request.url}`);
+                            return response;
+                        }
+                    })
+            })  // catch
+    );
 });
