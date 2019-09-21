@@ -15,7 +15,7 @@
   ],
   "start_url": "/tipcalc/index.html?source=pwa",
   "scope": "/tipcalc/",
-  "display": "browser",
+  "display": "minimal-ui",
   "background_color": "#FF6F6F",
   "theme_color": "#3653B3"
 }
