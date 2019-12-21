@@ -19,6 +19,8 @@ email: john@learningpwa.com
 #   The online home for Addison Wesley's Learning Progressive Apps (PWA) by John M. Wargo
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://learningpwa.com" # the base hostname & protocol for your site, e.g. http://example.com
+# Google Analytics
+google_analytics: UA-81477657-7
 twitter_username: johnwargo
 github_username:  johnwargo
 
