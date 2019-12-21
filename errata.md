@@ -4,4 +4,4 @@ title: Errata
 permalink: /errata/
 ---
 
-No Errata Yet! Ha!
+**No Errata Yet!** Ha!
