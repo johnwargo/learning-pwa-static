@@ -5,3 +5,9 @@
 The static web site for [learningpwa.com](https://learningpwa.com).
 
 The site was build using [Jekyll](https://jekyllrb.com/)
+
+## Tasks
+
++ Update where to buy page
++ Order the menu items
++ Add Pearson ad
