@@ -40,6 +40,4 @@ The other is the [PWA News](https://pwa-news.com) site from chapters 3, 4, and 5
 
 ![PWA News Site](/images/pwa-news.png)
 
-**Note:** This site is not a PWA because it doesn’t need to be a PWA. It’s just a marketing landing page for the book and there are no browser notifications I want to send to visitors nor is there a need to cache the site’s content for increased performance or offline use. Just because I can make the site into a PWA doesn’t mean that I should. Use the power of PWAs only for those sites that really need them.
-
 I believe in progressive web apps and think they are the future of mobile app development, so that’s why I worked to put this book into your hands. I really enjoyed writing it, and I hope you enjoy reading it as much or more.
