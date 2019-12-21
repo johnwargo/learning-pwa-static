@@ -1,10 +1,8 @@
 ---
 layout: page
-title: FAQ
+title: Frequently Asked Questions
 permalink: /faq/
 ---
-
-# Frequently Asked Questions
 
 **If this is a book about Progressive Web Apps (PWAs) why isn't this site a PWA?**
 
