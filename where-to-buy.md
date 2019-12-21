@@ -4,7 +4,7 @@ title: Where To Buy
 permalink: /where-to-buy/
 ---
 
-![Learning PWA Cover Image](/images/learning-pwa-256.png)
+[![Learning PWA Cover Image](/images/learning-pwa-256.png)](https://amzn.to/2SgvJjq)
 
 <!-- {% include amazon.html %} -->
 
