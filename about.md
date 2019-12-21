@@ -32,7 +32,13 @@ If you have any questions or comments about the book or if you found an error in
 
 If you find a bug in the code and want to fix it yourself, do so, then submit a pull request against the repo and I’ll take a look. I’m usually very good about responding, so you should hear back from me in a day or so. Please be nice – GitHub is a very public forum and we should all treat people there as we expect to be treated by others.
 
-Two of the three sample apps from the book are published online as well. The first is the [Tip Calculator](https://learningpwa.com/tipcalc/) from Chapter 2. The other is the [PWA News](https://pwa-news.com) site from chapters 3, 4, and 5. The PWA News site requires compute (it’s server-side is a node.js application) so I’ll leave the site up as long as there is interest in the book. Eventually I’ll shut it down, but the full source for the server is included with the book’s source code, so you’ll always be able to run a local copy of the server or host the site somewhere else yourself.
+Two of the three sample apps from the book are published online as well. The first is the [Tip Calculator](https://learningpwa.com/tipcalc/) from Chapter 2. 
+
+![Tip Calculator](/images/tip-calculator.png)
+
+The other is the [PWA News](https://pwa-news.com) site from chapters 3, 4, and 5. The PWA News site requires compute (it’s server-side is a node.js application) so I’ll leave the site up as long as there is interest in the book. Eventually I’ll shut it down, but the full source for the server is included with the book’s source code, so you’ll always be able to run a local copy of the server or host the site somewhere else yourself.
+
+![PWA News Site](/images/pwa-news.png)
 
 **Note:** This site is not a PWA because it doesn’t need to be a PWA. It’s just a marketing landing page for the book and there are no browser notifications I want to send to visitors nor is there a need to cache the site’s content for increased performance or offline use. Just because I can make the site into a PWA doesn’t mean that I should. Use the power of PWAs only for those sites that really need them.
 
