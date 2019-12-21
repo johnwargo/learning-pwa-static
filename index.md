@@ -5,8 +5,6 @@
 layout: home
 ---
 
-# Welcome to the Site
-
 Developers building apps targeting desktops, laptops, smartphones, and tablets, have two options to use when building their apps: native apps built specifically for the target platform, or web apps which run on most any system Building native apps for any target platform is a time-consuming and expensive proposition, especially when your app targets multiple system types (desktop computers, smartphones, televisions, etc.).
 
 Web apps are challenging because a user experiences vary dramatically depending on which type of system the user accessed the app from. Desktop browsers are fully capable, but mobile device browsers have limitations due to reduce screen real estate, processor speed, network bandwidth, and more. Many of these limitations have disappeared, but there’s still considerable disparity between native app and web app capabilities.
