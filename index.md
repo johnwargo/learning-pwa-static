@@ -7,12 +7,20 @@ layout: home
 
 # Welcome to the Site
 
-Bacon ipsum dolor amet ham venison fatback tongue corned beef. Ham hock cow pancetta, picanha meatloaf tenderloin frankfurter. Spare ribs sausage swine brisket ham shank frankfurter shankle leberkas pork chop jowl. Ham hock tenderloin ham tail shankle cupim. Short loin venison ham capicola, tri-tip beef ribs ham hock alcatra t-bone. Chuck venison jerky pig andouille, pork belly beef shoulder brisket.
+Developers building apps targeting desktops, laptops, smartphones, and tablets, have two options to use when building their apps: native apps built specifically for the target platform, or web apps which run on most any system Building native apps for any target platform is a time-consuming and expensive proposition, especially when your app targets multiple system types (desktop computers, smartphones, televisions, etc.).
 
-Pork chop brisket chicken bacon. Kevin sausage salami drumstick pastrami, kielbasa brisket porchetta frankfurter cow pork chop short loin venison. Pork biltong shankle short ribs shank. Pork chop cupim kielbasa, salami capicola ham tail leberkas biltong flank.
+Web apps are challenging because a user experiences vary dramatically depending on which type of system the user accessed the app from. Desktop browsers are fully capable, but mobile device browsers have limitations due to reduce screen real estate, processor speed, network bandwidth, and more. Many of these limitations have disappeared, but there’s still considerable disparity between native app and web app capabilities.
 
-Tenderloin ground round pork, salami boudin cow doner fatback chuck. Swine pork belly fatback turkey ball tip biltong pig kielbasa. Capicola ball tip buffalo beef venison tail filet mignon, frankfurter burgdoggen short ribs. Beef ribs pork chop chicken, turkey spare ribs short ribs swine meatball pancetta shoulder.
+Over the years, web browsers, especially those running on mobile devices like smartphones and tablets, exposed more native capabilities to web apps. This enables web apps to work more like native apps, but there were still limitations. Service Workers are a relatively new technology that make it easier for web apps to bridge the gap between native and web capabilities, removing many limitations from web apps.
+This is a book about service workers; focusing on how to use service workers to enhance the capabilities of a web app to create a Progressive Web App (PWA). This book focuses on the technologies enabling PWAs, and how to use them to enhance your web apps to deliver a more native-like experience.
 
-Buffalo frankfurter pork belly fatback ribeye hamburger leberkas strip steak. Ball tip corned beef filet mignon frankfurter drumstick andouille pancetta sirloin leberkas ribeye. Sausage ball tip venison pork, alcatra porchetta tongue t-bone doner kielbasa. Salami pork belly tenderloin, bresaola landjaeger buffalo jowl. Burgdoggen chuck meatloaf picanha tri-tip sirloin corned beef ball tip pork loin.
+Learning Progressive Web Apps is the first of a new generation of PWA guides that reflect breakthrough advances such as Service Workers and Web App Manifests, helping you combine the best features of web and mobile development. One step at a time, John M. Wargo introduces techniques for building apps, highlighting:
 
-Tail shankle meatball bacon t-bone pork, ham hock pork belly kielbasa rump porchetta ground round ribeye bresaola kevin. Short ribs doner frankfurter chicken, ball tip shank pork belly filet mignon. Buffalo flank salami doner meatball. Beef ribs shankle jerky kevin tenderloin, bacon venison ham hock strip steak.
++ Building web apps a user can easily install on their local system
++ Building web apps that work offline or on low quality networks
++ Implementing caching strategies that give web developers control over which app resources are cached and when
++ Delivering background processing in a web application
++ Implementing push notifications to enable an app to more easily engage with users or trigger action from a remote server.
+
+As you work through the chapters, at different points you’ll start with one of three complete, stand-alone web apps, then convert them into PWAs using service workers and other browser technologies.
+Wargo clearly introduces each core concept and illustrates the implementation of each capability through complete, operational examples. You’ll start with simple web apps, then incrementally expand and extend them with state-of-the-art features. All example source code is available on GitHub, and additional resources will be available through the author’s site, learningpwa.com.
