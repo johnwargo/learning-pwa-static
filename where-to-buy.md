@@ -14,6 +14,8 @@ Learning Progressive Web Apps is available from the following sources:
 + [Barnes & Noble](https://www.barnesandnoble.com/w/learning-progressive-web-apps-john-m-wargo/1133107612)
 + [InformIT](http://www.informit.com/store/learning-progressive-web-apps-9780136484226)
 
---- 
+---
+
+Get additional deals from the book's publisher:
 
 {% include pearson.html %}
