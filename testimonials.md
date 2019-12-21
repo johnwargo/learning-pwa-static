@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contact
-permalink: /contact/
+title: Testimonials
+permalink: /testimonials/
 ---
 
 Bacon ipsum dolor amet ham venison fatback tongue corned beef. Ham hock cow pancetta, picanha meatloaf tenderloin frankfurter. Spare ribs sausage swine brisket ham shank frankfurter shankle leberkas pork chop jowl. Ham hock tenderloin ham tail shankle cupim. Short loin venison ham capicola, tri-tip beef ribs ham hock alcatra t-bone. Chuck venison jerky pig andouille, pork belly beef shoulder brisket.
