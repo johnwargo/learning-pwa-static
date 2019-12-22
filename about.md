@@ -10,15 +10,13 @@ When building apps targeting desktops, laptops, smartphones, and tablets, develo
 
 Web apps were challenging because a user’s experience could vary dramatically depending on which type of system the user accessed the app from. Desktop browsers are fully capable, but mobile device browsers have limitations due to reduce screen real estate, processor speed, network bandwidth, and more. Many of these limitations have disappeared, but there’s still considerable disparity between native app and web app capabilities.
 
-Web developers have a lot of tools and technologies at their disposal to help them build rich, engaging apps. Over the years, different technologies like Sun Microsystems Java  and Adobe Flash  appeared with the expectation that they’d change the world for web apps – delivering a more engaging experiences for users. Both did that, but ultimately disappeared from the browser for good reason.
-
 What developers and users need is a way to enable web apps to work more like native apps. If we had that, our web apps would soar and enable us to more easily deliver cross platform apps through the browser rather than hand-crafting native apps for each supported platform.
 
-Over the years, web browsers, especially those running on mobile devices like smartphones and tablets, started exposing more native capabilities to web apps. For example, modern web apps can access the device’s file system and let a browser-based app know the device’s geolocation. This enables web apps to work more like native apps, but there were still limitations. Service Workers are a relatively new technology that make it easier for web apps to bridge the gap between native and web capabilities, removing many limitations from web apps.
+Over the years, web browsers, especially those running on mobile devices like smartphones and tablets, started exposing more native capabilities to web apps. For example, modern web apps can access the device’s file system and let a browser-based app know the device’s geolocation. This enables web apps to work more like native apps, but there were still limitations. **Service Workers** are a relatively new technology that make it easier for web apps to bridge the gap between native and web capabilities, removing many limitations from web apps.
 
-This is a book about service workers.
+**This is a book about service workers.**
 
-Yes, I know, the title says the book is about Progressive Web Apps (PWAs), and it is, but the book focuses on how to use service workers to enhance the capabilities of a web app and create PWAs.
+Yes, I know, the title says the book is about *Progressive Web Apps (PWAs)*, and it is, but the book focuses on how to use service workers to enhance the capabilities of a web app and create PWAs.
 
 There are several books out there that focus on the engagement impact of PWAs; how to build PWAs that delight and inspire users to do more in the app. This isn’t that kind of book.
 
