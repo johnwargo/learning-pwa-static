@@ -32,12 +32,24 @@ If you have any questions or comments about the book or if you found an error in
 
 If you find a bug in the code and want to fix it yourself, do so, then submit a pull request against the repo and I’ll take a look. I’m usually very good about responding, so you should hear back from me in a day or so. Please be nice – GitHub is a very public forum and we should all treat people there as we expect to be treated by others.
 
-Two of the three sample apps from the book are published online as well. The first is the [Tip Calculator](https://learningpwa.com/tipcalc/) from Chapter 2. 
+I believe in progressive web apps and think they are the future of mobile app development, so that’s why I worked to put this book into your hands. I really enjoyed writing it, and I hope you enjoy reading it as much or more.
+
+## Apps used in the book
+
+Accompanying the book are three web apps readers use to convert into PWAs or enable specific PWA capabilities. 
+
+The first is the [Tip Calculator](https://learningpwa.com/tipcalc/) from Chapter 2 show below. It's a simple web page that enables users to quickly calculate a tip for a restaurant waiter/waitress based on meal cost (something we do here in the US because wait staff aren't paid a living wage). The book uses this app to demonstrate how to make a web app installable using a web manifest file and a little JavaScript code.
 
 ![Tip Calculator](/images/tip-calculator.png)
 
-The other is the [PWA News](https://pwa-news.com) site from chapters 3, 4, and 5. The PWA News site requires compute (it’s server-side is a node.js application) so I’ll leave the site up as long as there is interest in the book. Eventually I’ll shut it down, but the full source for the server is included with the book’s source code, so you’ll always be able to run a local copy of the server or host the site somewhere else yourself.
+The second app in the book is the [PWA News](https://pwa-news.com) app used in chapters 3, 4, and 5. The app uses the Bing Web Search API to diaplay a list of current web articles on Progressive Web Apps. Readers use this app to learn caching strategies and offline sync.
 
 ![PWA News Site](/images/pwa-news.png)
 
-I believe in progressive web apps and think they are the future of mobile app development, so that’s why I worked to put this book into your hands. I really enjoyed writing it, and I hope you enjoy reading it as much or more.
+The PWA News site requires compute (it’s server-side is a node.js application) so I’ll leave the site up as long as there is interest in the book. Eventually I’ll shut it down, but the full source for the server is included with the book’s source code, so you’ll always be able to run a local copy of the server or host the site somewhere else yourself.
+
+The final app is the browser push tester app shown in the following figure. You'll use this simple app, and the admin site accompanying it, to learn how to send and process browser notifications in a web app. 
+
+![Browser Push Tester](/images/browser-push.png)
+
+As you can see, there's quite a lot of code involved in presenting this topic (PWAs) so I'm certain you'll come away knowing all you need to know about how to create PWAs.
