@@ -34,19 +34,19 @@ I believe in progressive web apps and think they are the future of mobile app de
 
 ## Apps used in the book
 
-Accompanying the book are three web apps readers use to convert into PWAs or enable specific PWA capabilities. 
+Accompanying the book are three web apps readers use to convert into PWAs or enable specific PWA capabilities.
 
 The first is the [Tip Calculator](https://learningpwa.com/tipcalc/) from Chapter 2 show below. It's a simple web page that enables users to quickly calculate a tip for a restaurant waiter/waitress based on meal cost (something we do here in the US because wait staff aren't paid a living wage). The book uses this app to demonstrate how to make a web app installable using a web manifest file and a little JavaScript code.
 
 ![Tip Calculator](/images/tip-calculator.png)
 
-The second app in the book is the [PWA News](https://pwa-news.com) app used in chapters 3, 4, and 5. The app uses the Bing Web Search API to diaplay a list of current web articles on Progressive Web Apps. Readers use this app to learn caching strategies and offline sync.
+The second app in the book is the [PWA News](https://pwa-news.com) app used in chapters 3, 4, and 5. The app uses the Bing Web Search API to display a list of current web articles on Progressive Web Apps. Readers use this app to learn caching strategies and offline sync.
 
 ![PWA News Site](/images/pwa-news.png)
 
 The PWA News site requires compute (it’s server-side is a node.js application) so I’ll leave the site up as long as there is interest in the book. Eventually I’ll shut it down, but the full source for the server is included with the book’s source code, so you’ll always be able to run a local copy of the server or host the site somewhere else yourself.
 
-The final app is the browser push tester app shown in the following figure. You'll use this simple app, and the admin site accompanying it, to learn how to send and process browser notifications in a web app. 
+The final app is the browser push tester app shown in the following figure. You'll use this simple app, and the admin site accompanying it, to learn how to send and process browser notifications in a web app.
 
 ![Browser Push Tester](/images/browser-push.png)
 
