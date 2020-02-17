@@ -32,8 +32,12 @@ Wargo clearly introduces each core concept and illustrates the implementation of
 </colgroup>
 <tbody>
 <tr>
-<td markdown="span">[![Apache Cordova 4 Programming cover](/images/ac4p-100.png)](https://cordova4programming.com)</td>
-<td markdown="span">[Apache Cordova 4 Programming](https://cordova4programming.com) is an introduction to writing mobile apps using  Apache Cordova, the leading framework for building native mobile applications for multiple target platforms using HTML5 (HTML, JavaScript, and CSS). The book targets the specific capabilities provided in Apache Cordova 4 and subsequent versions.</td>
+<td>
+<a href="https://cordovacookbook.com"><img src="/images/acac-cover-100.png" alt="Apache Cordova API Cookbook cover" /></a>
+</td>
+<td">
+<a href="https://cordovacookbook.com">Apache Cordova 4 Programming</a> is an introduction to writing mobile apps using  Apache Cordova, the leading framework for building native mobile applications for multiple target platforms using HTML5 (HTML, JavaScript, and CSS). The book targets the specific capabilities provided in Apache Cordova 4 and subsequent versions.
+</td>
 </tr>
 <tr>
 <td markdown="span">[![Apache Cordova API Cookbook cover](/images/acac-cover-100.png)](https://cordovacookbook.com)</td>
