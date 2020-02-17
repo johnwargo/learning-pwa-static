@@ -22,22 +22,3 @@ Learning Progressive Web Apps is the first of a new generation of PWA guides tha
 As you work through the chapters, at different points you’ll start with one of three complete, stand-alone web apps, then convert them into PWAs using service workers and other browser technologies.
 
 Wargo clearly introduces each core concept and illustrates the implementation of each capability through complete, operational examples. You’ll start with simple web apps, then incrementally expand and extend them with state-of-the-art features. All example source code is available on GitHub, and additional resources will be available through the author’s site, [https://learningpwa.com](https://learningpwa.com).
-
-## Check out John's Other Books
-
-<table border=0>
-<colgroup>
-<col width="120" />
-<!-- <col width="70%" /> -->
-</colgroup>
-<tbody>
-<tr>
-<td markdown="span">[![Apache Cordova API Cookbook cover](/images/acac-cover-100.png)](https://cordovacookbook.com)</td>
-<td markdown="span">[Apache Cordova API Cookbook](https://cordovacookbook.com) is the perfect companion to Apache Cordova 4 Programming, digging much deeper into each Cordova API and many complete sample applications. With these two books, you have more than 700 pages of content teaching everything you need to know about Apache Cordova development.</td>
-</tr>
-<tr>
-<td markdown="span">[![Learning Progressive Web Apps cover](/images/learning-pwa-100.png)](https://learningpwa.com)</td>
-<td markdown="span">[Learning Progressive Web Apps](https://learningpwa.com) is the definitive guide for writing Progressive Web applications (PWAs). The Author guides you through the process of converting existing web apps to PWAs, highlighting how to make an app installable using web app manifests, and enable all sorts of amazing background capabilities using service workers. </td>
-</tr>
-</tbody>
-</table>
