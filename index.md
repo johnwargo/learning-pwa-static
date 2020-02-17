@@ -23,4 +23,24 @@ Learning Progressive Web Apps is the first of a new generation of PWA guides tha
 + Implementing push notifications to enable an app to more easily engage with users or trigger action from a remote server.
 
 As you work through the chapters, at different points you’ll start with one of three complete, stand-alone web apps, then convert them into PWAs using service workers and other browser technologies.
+
 Wargo clearly introduces each core concept and illustrates the implementation of each capability through complete, operational examples. You’ll start with simple web apps, then incrementally expand and extend them with state-of-the-art features. All example source code is available on GitHub, and additional resources will be available through the author’s site, [https://learningpwa.com](https://learningpwa.com).
+
+## Check out John's Other Books
+
+<table border=0>
+<colgroup>
+<col width="120" />
+<!-- <col width="70%" /> -->
+</colgroup>
+<tbody>
+<tr>
+<td markdown="span">[![Apache Cordova 4 Programming cover](/images/ac4p-100.png)](https://cordova4programming.com)</td>
+<td markdown="span">[Apache Cordova 4 Programming](https://cordova4programming.com) is an introduction to writing mobile apps using  Apache Cordova, the leading framework for building native mobile applications for multiple target platforms using HTML5 (HTML, JavaScript, and CSS). The book targets the specific capabilities provided in Apache Cordova 4 and subsequent versions.</td>
+</tr>
+<tr>
+<td markdown="span">[![Apache Cordova API Cookbook cover](/images/acac-cover-100.png)](https://cordovacookbook.com)</td>
+<td markdown="span">[Apache Cordova API Cookbook](https://cordovacookbook.com) is the perfect companion to Apache Cordova 4 Programming, digging much deeper into each Cordova API and many complete sample applications. With these two books, you have more than 700 pages of content teaching everything you need to know about Apache Cordova development.</td>
+</tr>
+</tbody>
+</table>
