@@ -40,8 +40,12 @@ Wargo clearly introduces each core concept and illustrates the implementation of
 </td>
 </tr>
 <tr>
-<td markdown="span">[![Apache Cordova API Cookbook cover](/images/acac-cover-100.png)](https://cordovacookbook.com)</td>
-<td markdown="span">[Apache Cordova API Cookbook](https://cordovacookbook.com) is the perfect companion to Apache Cordova 4 Programming, digging much deeper into each Cordova API and many complete sample applications. With these two books, you have more than 700 pages of content teaching everything you need to know about Apache Cordova development.</td>
+<td markdown="span">
+[![Apache Cordova API Cookbook cover](/images/acac-cover-100.png)](https://cordovacookbook.com)
+</td>
+<td markdown="span">
+[Apache Cordova API Cookbook](https://cordovacookbook.com) is the perfect companion to Apache Cordova 4 Programming, digging much deeper into each Cordova API and many complete sample applications. With these two books, you have more than 700 pages of content teaching everything you need to know about Apache Cordova development.
+</td>
 </tr>
 </tbody>
 </table>
