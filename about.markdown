@@ -41,7 +41,7 @@ I believe in progressive web apps and think they are the future of mobile app de
 <tbody>
 <tr>
 <td markdown="span">[![Chapter 3 Title Page](/images/chapter-3-cover.png)](https://ptgmedia.pearsoncmg.com/images/9780136484226/samplepages/9780136484226_Sample.pdf)</td>
-<td markdown="span">For a free look into the book, check out [Chapter 3: Service Workers](https://ptgmedia.pearsoncmg.com/images/9780136484226/samplepages/9780136484226_Sample.pdf).</td>
+<td markdown="span">For a free look into the book, check out [Chapter 3: Service Workers](https://ptgmedia.pearsoncmg.com/images/9780136484226/samplepages/9780136484226_Sample.pdf).  The chapter introduces the [PWA News](https://pwa-news.com) application used throughout parts of the book then walks you through adding a service worker to the app and getting it working to turbocharge the app.</td>
 </tr>
 </tbody>
 </table>
