@@ -10,4 +10,4 @@ While testing a new [PWA](https://busystatus.com) controller app I'm creating fo
 
 If you have a PWA installed, but then navigate to the PWA's public URL, the browser adds a button to the Address Bar enabling you to open the locally installed version of the app instead as shown in the following figure.
 
-[Chromium Edge PWA Prompt](/images/chromium-pwa-dialog.png)
+![Chromium Edge PWA Prompt](/images/chromium-pwa-dialog.png)
