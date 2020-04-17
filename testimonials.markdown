@@ -8,7 +8,7 @@ permalink: /testimonials/
 
 *[Simon MacDonald](https://www.simonmacdonald.com/), Developer Advocate, Adobe*
 
-Great stuff! I love the emphasis on doing things without a library/framework, then slowly adding in things like workbox later on.
+> Great stuff! I love the emphasis on doing things without a library/framework, then slowly adding in things like workbox later on.
 
 *[Mike Hartington](https://mhartington.io/), Developer Advocate [Ionic](https://ionicframework.com/)*
 
