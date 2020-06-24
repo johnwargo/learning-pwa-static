@@ -23,6 +23,8 @@ As you work through the chapters, at different points you'll start with one of t
 
 Wargo clearly introduces each core concept and illustrates the implementation of each capability through complete, operational examples. You'll start with simple web apps, then incrementally expand and extend them with state-of-the-art features. All example source code is available in the book's [GitHub repository](https://github.com/johnwargo/learning-pwa-code).
 
+Read a review of the book and an interview with the author on [InfoQ](https://www.infoq.com/articles/learning-progressive-web-apps-review/). In the article I got a chance to answer some great questions about the book and about PWAs.
+
 ## Free Chapter
 
 <table border="0">
