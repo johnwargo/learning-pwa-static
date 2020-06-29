@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-[![Learning PWA Cover Image](/images/learning-pwa-256.png)](https://amzn.to/2SgvJjq)
+[![Learning PWA Cover Image](/images/learning-pwa-256.png)](https://amzn.to/2NCUuCR)
 
 When building apps targeting desktops, laptops, smartphones, and tablets, developers have generally two options to use when building their apps: native apps built specifically for the target platform, or web apps which ultimately can run on most any system due to the abstraction layer provided by web browsers. Building native apps for any target platform is a time-consuming and expensive proposition, especially when your app targets multiple types of systems (desktop computers, smartphones, televisions, etc.).
 
