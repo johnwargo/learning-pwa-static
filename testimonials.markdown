@@ -12,6 +12,10 @@ permalink: /testimonials/
 
 *[Mike Hartington](https://mhartington.io/), Developer Advocate [Ionic](https://ionicframework.com/)*
 
+> I just got your book and am on page two: "I think Google’s description is off base,..." OK, I had to stop and figure out how to email you. This is just the book I wanted after reading so much vague and  misleading information about PWAs online.  No React layer and no fluff about creating a great UI/UX. PWAs just offer a particular way to combine and use manifest files and service workers and you offer a path to understand it all from the component level.
+
+*Stephen Hollister*
+
 > I love this book, it's a great read, and I enjoyed writing it as well. Enjoy!
 
 *[John M. Wargo](https://about.me/johnwargo), Author*
