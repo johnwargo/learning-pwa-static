@@ -4,7 +4,7 @@ title: Errata
 permalink: /errata/
 ---
 
-# Updated Server Code for Chapters 3 through 5
+## Updated Server Code for Chapters 3 through 5
 
 The sample applications used in the chapters three through 5 use a server application that leverages the Bing News Search API. On October 29, 2020, Microsoft announced that "Bing Search APIs will transition from Azure Cognitive Services to Azure Marketplace on 31 October 2023."  In the announcement, they said:
 
@@ -14,7 +14,7 @@ Existing Bing Search API keys will continue to work until the 2023 deadline, but
 
 To make it easier for readers, I added a folder to the book's source code repository called [`updated-server`](https://github.com/johnwargo/learning-pwa-code/tree/master/updated-server); this folder contains the updated server source code that uses the **New Bing Search API Keys**. The folder's readme file contains complete instructions for how to use the updated code plus describes when you must switch to this updated code. Give the document a read and let me know (through issues created in the repo) if I need to make any fixes to the code or documentation.
 
-# Chapter 3
+## Chapter 3
 
 In Chapter 3, where the book tells readers to create a new API key using the following link: [https://portal.azure.com/#create/Microsoft.CognitiveServicesBingSearch-v7](https://portal.azure.com/#create/Microsoft.CognitiveServicesBingSearch-v7); that no longer works (due to the Bing Search API changes described earlier on this page). Readers must use the following link instead: [https://portal.azure.com/#create/Microsoft.BingSearch](https://portal.azure.com/#create/Microsoft.BingSearch).
 
