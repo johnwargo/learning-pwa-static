@@ -11,7 +11,7 @@ In the section of this chapter entitled **Making a Web App Installable**, I ment
 
 In the session, Asami Doi described how the browser will soon start validating more than just the existence of the event handler. Apparently Chrome will create a private sandbox, turn off the network connection in the sandbox, then run the PWA there looking to see if the service worker returns an HTTP 200 response code for a random page request (indicating that the service worker properly handles offline scenarios). This means that if you're working through the examples in Chapter 2 and Chrome doesn't try to make your PWA installable, then you're going to have to implement a more robust service worker. You'll need to implement something like what I show in Chapter 4 in the **Adding an Offline Page** section ([sw-44.js](https://github.com/johnwargo/learning-pwa-code/blob/master/chapter-04/public/service-workers/sw-44.js)) to handle the offline scenario.
 
-I'll create an alternate version of the Chapter 2 sample code that implements this.
+I'll create an alternate version of the Chapter 2 sample code that implements this in the `tip-calculator-end (alternate)` folder in the [chapter's code repository](https://github.com/johnwargo/learning-pwa-code/tree/master/chapter-02).
 
 ## Updated Server Code for Chapters 3 through 5
 
