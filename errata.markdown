@@ -5,6 +5,7 @@ permalink: /errata/
 ---
 
 Surprisingly, I've yet to find an actual issue I caused in the content in the book; instead, all of the errata items listed here affect readers because they change the way external tools work invalidating content in the book.
+
 ## Chapter 2
 
 In the section of this chapter entitled **Making a Web App Installable**, I mentioned that one of the criteria for Chrome to recognize a PWA as installable was that the PWA "has registered a service worker with a fetch event handler". At the time I wrote that, the service worker simply had to listen for the `fetch` event to meet the criteria, but in the 2020 Chrome Developer Conference Google presented a session called [New logic to detect PWA offline support](https://developer.chrome.com/devsummit/sessions/new-logic-to-detect-pwa-offline-support/) where they outlined some changes to how Chrome detects installable PWAs.
