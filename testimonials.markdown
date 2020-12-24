@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Testimonials
+title: Testimonials & Reviews
 permalink: /testimonials/
 ---
 
@@ -19,3 +19,8 @@ permalink: /testimonials/
 > I love this book, it's a great read, and I enjoyed writing it as well. Enjoy!
 
 *[John M. Wargo](https://about.me/johnwargo), Author*
+
+# Reviews
+
+- [InfoQ](https://www.infoq.com/articles/learning-progressive-web-apps-review/)
+- [1Programmer](https://www.i-programmer.info/bookreviews/12-web-design-and-development-/14235-learning-progressive-web-apps-.html)
