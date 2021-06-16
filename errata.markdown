@@ -31,3 +31,15 @@ In Chapter 3, where the book tells readers to create a new API key using the fol
 ## Chapter 8
 
 On page 191, I reference a simplified version of the tip calculator app I have hosted at [Netlify](https://netlify.com). In the book, I list the app URL as https://tip-calc-test.netlify.com/, but after the book went to press, Netlify announced that any hosted app that doesn't have a custom domain associated with it will use netlify.app. Going forward, the URL for the test app is [https://tip-calc-test.netlify.app/](https://tip-calc-test.netlify.app/).
+
+## Everywhere
+
+With the recent popularity or replacing a GitHub Repository's `master` branch with `main`, I made the change to the book's source code repository. With this change in place, many of the URLs in the book have changed. For example, any reference to the book's online Chapter 1 code will look like this in the book:
+
+https://github.com/johnwargo/learning-pwa-code/tree/master/chapter-01
+
+but, because of the recent change, it now looks like this:
+
+https://github.com/johnwargo/learning-pwa-code/tree/main/chapter-01
+
+This shouldn't be a big issue because I'm pretty sure the book only references a local clone of the repo, but I wanted to make sure I explained the changes here.
