@@ -48,11 +48,11 @@ Read a review of the book and an interview with the author on [InfoQ](https://ww
 </colgroup>
 <tbody>
 <tr>
-<td markdown="span">[![Apache Cordova 4 Programming cover](/images/ac4p-240.png)](https://cordova4programming.com)</td>
+<td markdown="span">[![Apache Cordova 4 Programming cover](/images/ac4p-240.png)](https://amzn.to/2Ug9XPw)</td>
 <td markdown="span">[Apache Cordova 4 Programming](https://cordova4programming.com) is the ultimate introduction to building mobile apps using Apache Cordova, the leading framework for building native mobile applications for multiple target platforms using HTML5 (HTML, JavaScript, and CSS). The book targets the specific capabilities provided in Apache Cordova 4 and subsequent versions.g</td>
 </tr>
 <tr>
-<td markdown="span">[![Apache Cordova API Cookbook cover](/images/acac-cover-100.png)](https://cordovacookbook.com)</td>
+<td markdown="span">[![Apache Cordova API Cookbook cover](/images/acac-cover-100.png)](https://amzn.to/3jxlnJA)</td>
 <td markdown="span">[Apache Cordova API Cookbook](https://cordovacookbook.com) is the perfect companion to Apache Cordova 4 Programming, digging much deeper into each Cordova API and many complete sample applications. With these two books, you have more than 700 pages of content teaching everything you need to know about Apache Cordova development.</td>
 </tr>
 </tbody>
