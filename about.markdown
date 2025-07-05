@@ -54,7 +54,7 @@ The first is the [Tip Calculator](https://learningpwa.com/tipcalc/) from Chapter
 
 ![Tip Calculator](/images/tip-calculator.png)
 
-The second app in the book is the [PWA News](https://pwa-news.com) app used in chapters 3, 4, and 5. The app uses the Bing Web Search API to display a list of current web articles on Progressive Web Apps. Readers use this app to learn caching strategies and offline sync.
+The second app in the book is the PWA News app (no longer available) used in chapters 3, 4, and 5. The app uses the Bing Web Search API to display a list of current web articles on Progressive Web Apps. Readers use this app to learn caching strategies and offline sync.
 
 ![PWA News Site](/images/pwa-news.png)
 
